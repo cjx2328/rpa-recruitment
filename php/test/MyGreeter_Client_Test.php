@@ -1,6 +1,10 @@
 <?php
+namespace MyGreeter;
+use PHPUnit\Framework\TestCase;
 
-class MyGreeter_Client_Test extends \PHPUnit_Framework_TestCase
+require_once "./MyGreeter.php";
+//class MyGreeter_Client_Test  extends \PHPUnit_Framework_TestCase
+class MyGreeter_Client_Test  extends TestCase
 {
     public function setUp()
     {
